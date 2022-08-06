@@ -19,71 +19,43 @@ Author (id, name, books)
 запуска готового приложения.
 
 # {
+#  getAllBooks {
+#   id
+#   title
 
-# getAllBooks {
-
-# id
-
-# title
-
+#   }
 # }
 
-# }
-
-# }
 
 # {
-
-# getAuthor(name : "Алексей"){
-
-# id
-
-# name
-
-# books{
-
-# id
-
-# title
-
+#  getAuthor(name : "Иван"){
+#   id
+#   name
+#   books{
+#     id
+#     title
+#    }
+# }
 # }
 
-# }
-
-# }
 
 # query{
-
-# getBooksByAuthor(author: {id:7, name:"Иван"}){
-
-# id
-
-# title
-
-# }
-
+#   getBooksByAuthor(author: {id:7, name:"Иван"}){
+#     id
+#     title
+#   }
 # }
 
 # mutation{
-
-# saveBook(title: "Книга Александра и Игоря", authors:[{id:2, name: "Игорь"}, {id:3, name: "Александр"}]){
-
-# id
-
-# title
-
-# }
-
-#   
+#   saveBook(title: "Книга Александра и Игоря", authors:[{id:2, name: "Игорь"}, {id:3, name: "Александр"}]){
+#     id
+#     title
+#   }
+# 
 
 # mutation{
-
-# saveAuthor(name: "Иван", books:[ {title: "книга Ивана"}, {title: "книга Ивана 2"}]){
-
-# id
-
-# name
-
-# }
-
+#   saveAuthor(name: "Евгений", books:[ {title: "книга Евгения"}, {title: "книга Евгения 2 "}]){
+#     id
+#     name
+#   }
 # }

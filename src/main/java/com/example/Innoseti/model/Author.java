@@ -13,9 +13,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Entity
-@ToString
 public class Author {
 
     @Id
